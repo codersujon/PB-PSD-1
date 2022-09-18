@@ -205,6 +205,12 @@ label {
   opacity: 1;
 }
 
+.wrapper {
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 /*--
     - Common Classes
 -----------------------------------------*/
@@ -1636,6 +1642,37 @@ label {
 }
 .header__scroll i {
   color: #fff;
+}
+
+/* ABOUT START */
+.about__content p {
+  font-size: 30px;
+  line-height: 42px;
+  color: #464b4f;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* SECTION TITLE */
+.section__title {
+  margin-bottom: 90px;
+}
+.section__title h2 {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.services__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.services__box h4 {
+  text-transform: uppercase;
+  color: #464b4f;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

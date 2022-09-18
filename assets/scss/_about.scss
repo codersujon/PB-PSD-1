@@ -1,0 +1,23 @@
+/* ABOUT START */
+.about {
+    &__content {
+        & p {
+            font-size: 30px;
+            line-height: 42px;
+            color: #464b4f;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+/* SECTION TITLE */
+.section__title{
+    & h2{
+        font-size: 80px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    margin-bottom: 90px;
+}

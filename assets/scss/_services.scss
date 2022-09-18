@@ -1,0 +1,16 @@
+.services {
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    &__box {
+        & h4 {
+            text-transform: uppercase;
+            color: #464b4f;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
+}
