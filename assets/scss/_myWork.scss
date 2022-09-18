@@ -1,0 +1,32 @@
+.myWork {
+    &__menu {
+        text-align: center;
+
+        & a {
+            text-transform: capitalize;
+            font-size: 14px;
+            color: $white;
+            margin: 0 30px;
+            line-height: 32px;
+            position: relative;
+
+            &:hover{
+                &::before{
+                    width: 100%;
+                }
+            }
+
+            &::before {
+                position: absolute;
+                content: '';
+                height: 2px;
+                width: 0;
+                background: $theme-color;
+                left: 0;
+                bottom: -7px;
+                transition: .3s;
+                
+            }
+        }
+    }
+}

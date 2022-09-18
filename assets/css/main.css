@@ -1654,9 +1654,6 @@ label {
 }
 
 /* SECTION TITLE */
-.section__title {
-  margin-bottom: 90px;
-}
 .section__title h2 {
   font-size: 80px;
   font-weight: 700;
@@ -1673,6 +1670,31 @@ label {
   color: #464b4f;
   font-size: 18px;
   margin-bottom: 20px;
+}
+
+.myWork__menu {
+  text-align: center;
+}
+.myWork__menu a {
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #fff;
+  margin: 0 30px;
+  line-height: 32px;
+  position: relative;
+}
+.myWork__menu a:hover::before {
+  width: 100%;
+}
+.myWork__menu a::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0;
+  background: #7b77c9;
+  left: 0;
+  bottom: -7px;
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=main.css.map */
