@@ -1,0 +1,22 @@
+// Font Family
+$segoeUi: 'Poppins', sans-serif;
+
+// Colors ---------------
+$white: #fff;
+$black: #000;
+$grey:#dbdbdb;
+$theme-color: #7b77c9;
+$body-text-color: #888a8b;
+$hr-border-color:#eceff8;
+$dark: #23232e;
+
+// Heading Color
+$heading-color: #464b4f;
+
+
+// Responsive Variables
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
