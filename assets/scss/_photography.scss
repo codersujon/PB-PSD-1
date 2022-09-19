@@ -1,0 +1,20 @@
+.photography{
+    background-image: url('../img/pattern-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    & p{
+        font-size: 30px;
+        color: #888a8b;
+        line-height: 42px;
+        text-align: center;
+        padding: 0 80px;
+        margin-bottom: 50px;
+    }
+
+    &__boxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}

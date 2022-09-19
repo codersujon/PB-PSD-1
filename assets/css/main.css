@@ -1645,6 +1645,12 @@ label {
 }
 
 /* ABOUT START */
+.about {
+  background-image: url("../img/pattern-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .about__content p {
   font-size: 30px;
   line-height: 42px;
@@ -1695,6 +1701,106 @@ label {
   left: 0;
   bottom: -7px;
   transition: 0.3s;
+}
+.myWork__portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 50px;
+}
+.myWork__content h3 {
+  font-size: 21px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.myWork__content a {
+  color: #818baa;
+  font-size: 14px;
+}
+
+/* BUTTON */
+.pb-btn {
+  font-size: 18px;
+  color: #fff;
+  background-color: #7b77c9;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.pb-btn:hover {
+  background-color: #fff;
+  color: #7b77c9;
+}
+
+.photography {
+  background-image: url("../img/pattern-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.photography p {
+  font-size: 30px;
+  color: #888a8b;
+  line-height: 42px;
+  text-align: center;
+  padding: 0 80px;
+  margin-bottom: 50px;
+}
+.photography__boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.subscribe {
+  padding: 210px 0;
+}
+.subscribe__icon i {
+  font-size: 80px;
+  color: #fff;
+  display: block;
+}
+.subscribe p {
+  padding: 50px 0;
+}
+.subscribe__box input[type=email] {
+  width: 380px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-right: 10px;
+  color: #c8c8c8;
+}
+.subscribe__box input[type=email]:focus {
+  color: #c8c8c8;
+}
+.subscribe__box input[type=submit] {
+  width: 210px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #7b77c9;
+  color: #fff;
+}
+
+.footer {
+  background-image: url("../img/pattern-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer__socials a {
+  font-size: 35px;
+  margin: 20px;
+  color: #dbdbdb;
+  transition: 0.3s;
+}
+.footer__socials a:hover {
+  color: #7b77c9;
 }
 
 /*# sourceMappingURL=main.css.map */

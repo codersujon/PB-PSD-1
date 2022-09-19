@@ -10,8 +10,8 @@
             line-height: 32px;
             position: relative;
 
-            &:hover{
-                &::before{
+            &:hover {
+                &::before {
                     width: 100%;
                 }
             }
@@ -25,8 +25,47 @@
                 left: 0;
                 bottom: -7px;
                 transition: .3s;
-                
+
             }
         }
+    }
+
+    &__portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 50px;
+    }
+
+    &__content {
+        & h3 {
+            font-size: 21px;
+            font-weight: 400;
+            color: $white;
+            margin-bottom: 10px;
+        }
+
+        & a {
+            color: #818baa;
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+/* BUTTON */
+.pb-btn {
+    font-size: 18px;
+    color: $white;
+    background-color: $theme-color;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+
+    &:hover {
+        background-color: $white;
+        color: $theme-color;
     }
 }

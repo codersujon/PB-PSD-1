@@ -1,0 +1,18 @@
+.footer {
+    background-image: url('../img/pattern-3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &__socials {
+        & a {
+            font-size: 35px;
+            margin: 20px;
+            color: $grey;
+            transition: .3s;
+
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+}
