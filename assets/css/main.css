@@ -1734,6 +1734,10 @@ label {
   color: #7b77c9;
 }
 
+.pb-outline {
+  border: 1px solid #7b77c9;
+}
+
 .photography {
   background-image: url("../img/pattern-2.png");
   background-size: cover;
